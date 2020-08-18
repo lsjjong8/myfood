@@ -13,12 +13,11 @@
 ### aws ec2 linux, git, java8, gradle, s3, aws deploy, travici, nginx, docker
 
 ### example URL :
-http://cookrcp.com:8080/api/user/1
-
-http://cookrcp.com:8080/api/adminUser/{id}
-http://cookrcp.com:8080/api/category/{id}
-http://cookrcp.com:8080/api/item/{id}
-http://cookrcp.com:8080/api/orderDetail/{id}
-http://cookrcp.com:8080/api/orderGroup/{id}
-http://cookrcp.com:8080/api/partner/{id}
-http://cookrcp.com:8080/api/user/{id}
+http://cookrcp.com/api/user/1
+http://cookrcp.com/api/adminUser/{id}
+http://cookrcp.com/api/category/{id}
+http://cookrcp.com/api/item/{id}
+http://cookrcp.com/api/orderDetail/{id}
+http://cookrcp.com/api/orderGroup/{id}
+http://cookrcp.com/api/partner/{id}
+http://cookrcp.com/api/user/{id}
