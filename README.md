@@ -7,7 +7,7 @@
 ## Dependency
 
 ## Environment
-### java 11, spring boot, gradle, jpa, TDD junit 5, 
+### java 8, spring boot, gradle, jpa, TDD junit 5, 
 
 ## Deploy
 ### aws ec2 linux, git, java8, gradle, s3, aws deploy, travici, nginx, docker
