@@ -2,7 +2,9 @@
 
 # Getting Started
 
-### .gitignore
+이 프로젝트는 Spring Boot + JPA + REST API 학습을 목표로 만든 실습형 백엔드 프로젝트입니다.
+공통 CRUD 추상화(CrudController, BaseService)를 통해 API 계층 구조를 반복 구현해보며, User, Item, OrderGroup 등 도메인 간 연관관계 매핑(1:N, N:1), JPA Auditing, 페이징 조회, 상태 Enum 처리 등을 실전 형태로 연습했습니다.
+또한 일부 관리자 화면(Thymeleaf)과 배포 설정(CodeDeploy 스크립트, 프로필 분리)을 포함해, 단순 CRUD를 넘어 개발-테스트-배포 흐름까지 경험하는 데 초점을 둔 프로젝트입니다.
 
 ## Dependency
 
