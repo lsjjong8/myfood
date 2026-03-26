@@ -6,13 +6,13 @@
 공통 CRUD 추상화(CrudController, BaseService)를 통해 API 계층 구조를 반복 구현해보며, User, Item, OrderGroup 등 도메인 간 연관관계 매핑(1:N, N:1), JPA Auditing, 페이징 조회, 상태 Enum 처리 등을 실전 형태로 연습했습니다.
 또한 일부 관리자 화면(Thymeleaf)과 배포 설정(CodeDeploy 스크립트, 프로필 분리)을 포함해, 단순 CRUD를 넘어 개발-테스트-배포 흐름까지 경험하는 데 초점을 둔 프로젝트입니다.
 
-## Dependency
-
 ## Environment
-### java 8, spring boot, gradle, jpa, TDD junit 5, 
+### java 8, spring boot, gradle, jpa, junit 5, 
 
 ## Deploy
 ### aws ec2 linux, git, java8, gradle, s3, aws deploy, travici, nginx
+AWS CodeDeploy 스크립트(appspec + 배포 쉘)와 Git Flow 기반 자동배포 학습을 통해 CI/CD 운영 흐름까지 경험하였음
+(비용 문제로 서버는 현재 사용하지 않음)
 
 ### example URL :
 http://cookrcp.com/api/user/1
